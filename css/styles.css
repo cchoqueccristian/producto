@@ -1,0 +1,187 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #007BFF, #00BFFF);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilos del menú */
+nav {
+    background: #0056b3;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Color dorado al pasar el mouse */
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007BFF;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+blockquote {
+    border-left: 4px solid #007BFF;
+    padding-left: 15px;
+    margin: 10px 0;
+    font-style: italic;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Botón */
+.btn {
+    display: inline-block;
+    background: #FFD700; /* Color dorado */
+    color: #333;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background: #FFC107; /* Color amarillo más claro */
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+/* Estilos para el formulario */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background: #007BFF;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+    background: #0056b3;
+}
+
+/* Estilos para imágenes responsivas */
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+}
+
+/* Diseño Responsivo */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
